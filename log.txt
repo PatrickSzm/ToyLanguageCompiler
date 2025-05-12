@@ -1,0 +1,339 @@
+-------Program State 0-------
+Symbol Table:
+
+Execution Stack:
+Ref(int) a;new(a, 20);fork(wH(a, 30);print(rH(a)));print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+
+Execution Stack:
+Ref(int) a
+new(a, 20);fork(wH(a, 30);print(rH(a)));print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+
+Execution Stack:
+Ref(int) a
+new(a, 20);fork(wH(a, 30);print(rH(a)));print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (0, int)
+
+Execution Stack:
+new(a, 20);fork(wH(a, 30);print(rH(a)));print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (0, int)
+
+Execution Stack:
+new(a, 20);fork(wH(a, 30);print(rH(a)));print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (0, int)
+
+Execution Stack:
+new(a, 20)
+fork(wH(a, 30);print(rH(a)));print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (0, int)
+
+Execution Stack:
+new(a, 20)
+fork(wH(a, 30);print(rH(a)));print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+fork(wH(a, 30);print(rH(a)));print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+fork(wH(a, 30);print(rH(a)));print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+fork(wH(a, 30);print(rH(a)))
+print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+fork(wH(a, 30);print(rH(a)))
+print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 1-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+wH(a, 30);print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 1-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+wH(a, 30);print(rH(a))
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 0-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 1-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+wH(a, 30)
+print(rH(a))
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 1-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+wH(a, 30)
+print(rH(a))
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+
+---------------------------
+
+-------Program State 1-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+print(rH(a))
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 30
+
+---------------------------
+
+-------Program State 1-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+print(rH(a))
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 30
+
+---------------------------
+
+-------Program State 1-------
+Symbol Table:
+a -> (1, int)
+
+Execution Stack:
+
+Output List:
+20
+30
+
+File Table:
+
+Heap:
+1 -> 30
+
+---------------------------
+

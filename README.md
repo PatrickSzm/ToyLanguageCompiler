@@ -1,34 +1,35 @@
-🧠 Toy Language Interpreter (Java)
-🚀 Project Summary
+# 🧠 Toy Language Interpreter (Java)
+
+## 🚀 Project Summary
+
 This Java-based interpreter is designed for a simple toy language, offering a hands-on way to understand key concepts in interpreters, Java programming, and GUI design. It provides an interactive environment where users can run pre-defined programs, inspect memory states, and follow execution flow through a graphical interface built with JavaFX.
 
-🖥️ Key Features
-Custom Language Execution
-Executes a simplified toy language with support for basic control flow, expressions, and file operations.
+## 🖥️ Key Features
 
-Interactive Step-by-Step Debugging
-A JavaFX-powered GUI allows users to step through each instruction, observing changes in program state in real time.
+- **Custom Language Execution**  
+  Executes a simplified toy language with support for basic control flow, expressions, and file operations.
 
-Live Memory Representation
-Visualizes essential runtime structures like the stack and heap as the program progresses.
+- **Interactive Step-by-Step Debugging**  
+  A JavaFX-powered GUI allows users to step through each instruction, observing changes in program state in real time.
 
-Basic File Handling
-Includes functionality to work with files, though the language currently lacks a parser for external text files — all programs are defined directly in code.
+- **Live Memory Representation**  
+  Visualizes essential runtime structures like the stack and heap as the program progresses.
 
-Minimal Instruction Set
-Supports core operations such as variable declarations, conditionals, and arithmetic/logical operations.
+- **Basic File Handling**  
+  Includes functionality to work with files, though the language currently lacks a parser for external text files — all programs are defined directly in code.
 
-🧱 Language Components
+- **Minimal Instruction Set**  
+  Supports core operations such as variable declarations, conditionals, and arithmetic/logical operations.
+
+## 🧱 Language Components
+
 The interpreter is structured around the following elements:
 
-Expressions – Arithmetic, logical, and variable expressions
+- **Expressions** – Arithmetic, logical, and variable expressions  
+- **Statements** – Control structures and execution logic  
+- **Types & Values** – Basic type system implementation  
+- **TypeChecker** – Static validation of program correctness  
 
-Statements – Control structures and execution logic
+## 🎓 Educational Context
 
-Types & Values – Basic type system implementation
-
-TypeChecker – Static validation of program correctness
-
-🎓 Educational Context
 This project was developed as part of an academic assignment aimed at better understanding Java and interpreter design principles.
-

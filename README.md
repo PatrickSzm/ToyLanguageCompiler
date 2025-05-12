@@ -31,3 +31,4 @@ TypeChecker – Static validation of program correctness
 
 🎓 Educational Context
 This project was developed as part of an academic assignment aimed at better understanding Java and interpreter design principles.
+
